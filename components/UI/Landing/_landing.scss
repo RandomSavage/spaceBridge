@@ -1,0 +1,39 @@
+.landing{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100vh;
+  background: rebeccapurple;
+  color: rgba(255, 255, 255, 0.35);
+  h1{
+    font-size: 2.75em;
+    color: #fff;
+  }
+  p{
+    font-size: 1.25em;
+  }
+  a{
+    text-decoration: dotted;
+    font-size: 1.3em;
+    color:rgba(255, 255, 255, 0.35);
+  }
+  &__links{
+    text-decoration: none;
+    transition: color 0.2s ease, border-bottom-color 0.2s ease;
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  }
+  &__actionBtn{
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    border-radius: 3em;
+    font-size: .6em;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 200px;
+    background: transparent;
+    a{
+      color: #fff;
+    }
+  }
+}
