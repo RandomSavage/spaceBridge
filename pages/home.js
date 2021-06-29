@@ -1,13 +1,12 @@
 import MainLayout from '../components/layouts/MainLayout'
-
+import SideNav from '../components/UI/SideNav/SideNav'
 
 
 const HomeView = () => {
   return (
     <MainLayout>
     <>
-      <h1>spacebridge</h1>
-      <h3>Forever Thirst</h3>
+      <SideNav />
     </>
   </MainLayout>
   )
