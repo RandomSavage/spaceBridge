@@ -5,7 +5,7 @@ import { useStateContext } from '../Jarvis'
 const MainLayout = (props) => {
   const globalState = useStateContext()
   return(
-    <div style={{background: globalState.bgChoice, minHeight: '100vh', backgroundAttachment: 'fixed'}}>
+    <div style={{background: globalState.bgChoice, minHeight: '100vh', minWidth: '100%', backgroundAttachment: 'fixed'}}>
       <section className="content-container">
         {props.children}
       </section>
