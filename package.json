@@ -9,7 +9,7 @@
     "build": "next build",
     "start": "next Start",
     "lint": "next lint",
-    "export": "next-build && next-export"
+    "export": "next build && next export"
   },
   "repository": {
     "type": "git",
