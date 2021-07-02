@@ -1,8 +1,7 @@
 @use 'reset';
 @use '../../components/UI/SideNav/_SideNav.scss';
 @use '../../components/UI/Landing/_landing.scss';
-
-
+@use '../../components/UI/Content/_content.scss';
 
 
 h1{
@@ -14,10 +13,12 @@ h3{
 }
 
 .landing-full{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  min-width: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 80%;
+  grid-gap: 0;
+  min-width: 100vw;
+  overflow-x: hidden;
+
   .landing{
 
   }
