@@ -8,8 +8,10 @@ const HomeView = () => {
     <MainLayout>
     <div className="landing-full">
       <SideNav />
-      {/* <Landing /> */}
-      <Content />
+      <div className="right-side">
+        <Landing />
+        <Content />
+      </div>
     </div>
   </MainLayout>
   )

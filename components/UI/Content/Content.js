@@ -1,6 +1,17 @@
+const loopContent = (content, num) => {
+  let loopedContent = []
+  for(let i = 0; i < num; i +=1) {
+    loopedContent.push(content)
+  }
+    return loopedContent
+
+}
+
 const Content = () => {
   return (
-    <div className="content-area">
+    <>
+    {loopContent(
+      (<div className="content-area">
       <img src="https://i.pinimg.com/originals/78/53/ec/7853ecc94a462304864cddd8c311d8e4.jpg" alt="model 500 telephone" />
       <aside className="content-area__inner">
         <h2>Sed gitsum Dolor</h2>
@@ -9,7 +20,9 @@ const Content = () => {
           <a href="/" >Learn More</a>
         </button>
       </aside>
-    </div>
+    </div>), 3)}
+  
+  </>
   )
 }
 
