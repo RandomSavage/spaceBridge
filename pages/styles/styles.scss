@@ -35,5 +35,18 @@ h3{
 
 /*phones*/
 @media only screen and (max-width: 767px){
+  .landing-full{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 0;
+    min-width: 100vw;
+    overflow-x: hidden;
   
+    .right-side{
+      display: flex;
+      flex-direction: column;
+      justify-content: start;
+      margin-left: 0em;
+    }
+  }
 }

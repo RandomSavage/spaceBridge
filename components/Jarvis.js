@@ -39,6 +39,8 @@ const[myContent, setMyContent] = useState(
   ]
 )
 
+
+
 let [bgChoice, setBgChoice] = useState('linear-gradient(312deg, rgba(26, 39, 103, 1) 0%, rgba(48, 20, 94, 1), 45%, rgba(0, 0, 0, 1) 100%)')
 
 const alterBg = (choice) => {
