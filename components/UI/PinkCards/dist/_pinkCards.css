@@ -110,8 +110,8 @@
     border-left: 1px solid rgba(255, 255, 255, 0.08);
     padding: 40px;
     background-color: rgba(255, 255, 255, 0.08);
-    margin: 0;
-    width: 350px;
+    margin: 0 20px;
+    width: 300px;
   }
   .pink-cards__card .card-icon {
     height: 43px;
@@ -140,7 +140,7 @@
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
-    width: 180px;
+    width: 300px;
     background: transparent;
     outline: none;
     padding: 2em 2em;
