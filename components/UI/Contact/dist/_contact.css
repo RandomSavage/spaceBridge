@@ -136,3 +136,149 @@
   color: #fff;
   text-decoration: none;
 }
+
+/*tablets*/
+/*phones*/
+@media only screen and (max-width: 767px) {
+  .contact {
+    background: #5e42a6;
+    height: 100%;
+    width: 100vw;
+    color: #fff;
+    padding: 5em 4em;
+  }
+  .contact__heading h2 {
+    font-size: 1.75em;
+    color: #fff;
+    margin-bottom: 0.8em;
+  }
+  .contact__heading p {
+    font-size: 17px;
+    line-height: 1.5;
+    opacity: 0.5;
+    margin-bottom: 2em;
+  }
+  .contact__split {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  .contact__split .split-left {
+    width: 100%;
+    border-right: transparent;
+    padding: 0.8em 2em 2.4em 0em;
+  }
+  .contact__split .split-left form .fields {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .contact__split .split-left form .fields .field-half {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 2.2em;
+    margin-bottom: 2.4em;
+  }
+  .contact__split .split-left form .fields .field-half label {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+  }
+  .contact__split .split-left form .fields .field-half input {
+    background: transparent;
+    font-size: 1em;
+    padding: 0.8em;
+    outline: none;
+    color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  .contact__split .split-left form .fields .field-half textarea {
+    width: calc(100% + 3em);
+    background: transparent;
+    font-size: 1.1em;
+    padding: 0.8em;
+    outline: none;
+    color: rgba(255, 255, 255, 0.3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+  }
+  .contact__split .split-right {
+    width: 100%;
+    padding: 2.4em 0em 0em 2.4em;
+    border-top: dotted 1px rgba(255, 255, 255, 0.3);
+  }
+  .contact__split .split-right .contact-info {
+    margin-left: 0em;
+    width: 100%;
+  }
+  .contact__split .split-right .contact-info ul {
+    width: 200px;
+  }
+  .contact__split .split-right .contact-info ul li {
+    padding-bottom: 0.8em;
+  }
+  .contact__split .split-right .contact-info .li-header {
+    width: 200px;
+    color: rgba(255, 255, 255, 0.3);
+    margin-bottom: 2.4em;
+  }
+  .contact__split .split-right .contact-info .li-header h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 1.2em;
+    color: #fff;
+  }
+  .contact__split .split-right .contact-info .li-header span {
+    color: rgba(255, 255, 255, 0.3);
+  }
+  .contact__split .split-right .contact-info .li-header br {
+    height: 0.5em;
+  }
+  .contact__split .split-right .contact-info .li-header a {
+    color: rgba(255, 255, 255, 0.3);
+    text-decoration: none;
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  }
+  .contact__split .split-right .contact-info .li-header .icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .contact__split .split-right .contact-info .li-header .icons a {
+    border-bottom: transparent;
+  }
+  .contact__split .split-right .contact-info .li-header .icons a:hover {
+    color: #fff;
+    border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  }
+  .contact__split .split-right .contact-info .li-header .icons .fa-icons {
+    color: rgba(255, 255, 255, 0.3);
+    font-size: 1.5em;
+  }
+  .contact__split .split-right .contact-info .li-header .icons .fa-icons:hover {
+    color: #fff;
+  }
+  .contact__actionBtn {
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    border-radius: 3em;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 180px;
+    width: calc(100% + 2.4em);
+    background: transparent;
+    outline: none;
+    padding: 2em 2em;
+    transition: background 0.2s ease, border-bottom-color 0.2s ease;
+    margin-top: 0em;
+  }
+  .contact__actionBtn:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .contact__actionBtn a {
+    color: #fff;
+    text-decoration: none;
+  }
+}

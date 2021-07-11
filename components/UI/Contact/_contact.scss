@@ -143,3 +143,159 @@
     }
   }
 }
+
+/*tablets*/
+@media only screen and (max-width: 960px){
+
+}
+
+/*phones*/
+@media only screen and (max-width: 767px){
+  .contact{
+    background: #5e42a6;
+    height: 100%;
+    width: 100vw;
+    color: #fff;
+    padding: 5em 4em;
+    &__heading{
+      // padding: 5em 4em;
+      h2{
+        font-size: 1.75em;
+        color: #fff;
+        margin-bottom: .8em;
+      }
+      p{
+        font-size: 17px;
+        line-height: 1.5;
+        opacity: .5;
+        margin-bottom: 2em;
+      }
+    }
+    &__split{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: nowrap;
+      .split-left{
+        width: 100%;
+        border-right: transparent;
+        padding: .8em 2em 2.4em 0em;
+        form{
+          .fields{
+            display: grid;
+            grid-template-columns: 1fr;
+            .field-half{
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              padding-right: 2.2em;
+              margin-bottom: 2.4em;
+              label{
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: 1.2em;
+              }
+              input{
+                background: transparent;
+                font-size: 1em;
+                padding: .8em;
+                outline: none;
+                color: rgba(255,255,255,.3);
+                border: 1px solid rgba(255,255,255,.3);
+                border-radius: 5px;
+              }
+              textarea{
+                width: calc(100% + 3em);
+                background: transparent;
+                font-size: 1.1em;
+                padding: .8em;
+                outline: none;
+                color: rgba(255,255,255,.3);
+                border: 1px solid rgba(255,255,255,.3);
+                border-radius: 5px;
+              }
+            }
+          }
+        }
+      }
+      
+      .split-right{
+        width: 100%;
+        padding: 2.4em 0em 0em 2.4em;
+        border-top: dotted 1px rgba(255,255,255,.3);
+        .contact-info{
+          margin-left: 0em;
+          width: 100%;
+          ul{
+            width: 200px;
+            li{
+              padding-bottom: .8em;
+            }
+          }
+            .li-header{
+              width: 200px;
+              color: rgba(255,255,255,.3);
+              margin-bottom: 2.4em;
+              h3{
+                font-size: 1.2em;
+                font-weight: bold;
+                margin-bottom: 1.2em;
+                color: #fff;
+              }
+              span{
+                color: rgba(255,255,255,.3);
+              }
+              br{
+                height: .5em;
+              }
+              a{
+                color: rgba(255,255,255,.3);
+                text-decoration: none;
+                border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+              }
+              .icons{
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                a{
+                border-bottom: transparent;
+                &:hover{
+                  color: #fff;
+                  border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+                  }
+                }
+                .fa-icons{
+                color: rgba(255,255,255,.3);
+                font-size: 1.5em;
+                &:hover{
+                  color: #fff;
+                  }
+                }
+              }
+            }
+        }
+      }
+    }
+    &__actionBtn{
+      border: solid 1px rgba(255, 255, 255, 0.15);
+      border-radius: 3em;
+      font-size: .7em;
+      font-weight: bold;
+      text-align: center;
+      text-transform: uppercase;
+      width: 180px;
+      width: calc(100% + 2.4em);
+      background: transparent;
+      outline: none;
+      padding: 2em 2em;
+      transition: background 0.2s ease, border-bottom-color 0.2s ease;
+      margin-top: 0em;
+      &:hover{
+      background: rgba(255, 255, 255, 0.15);
+      }
+      a{
+        color: #fff;
+        text-decoration: none;
+      }
+    }
+  }
+}
