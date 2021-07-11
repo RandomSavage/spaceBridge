@@ -254,7 +254,7 @@ table {
     text-align: center;
     text-decoration: none;
     text-transform: uppercase;
-    width: 350px;
+    width: 300px;
     background: transparent;
     padding: 2em 2em;
     transition: background 0.2s ease, border-bottom-color 0.2s ease;
@@ -320,11 +320,11 @@ table {
 @media only screen and (max-width: 767px) {
   .content-area {
     display: block;
-    height: 100vh;
+    height: 1475px;
     width: 100%;
   }
   .content-area img {
-    height: 100%;
+    height: 50%;
     width: 100%;
     object-fit: cover;
     object-position: center;
@@ -442,6 +442,104 @@ table {
 
 /*tablets*/
 /*phones*/
+@media only screen and (max-width: 767px) {
+  .pink-cards {
+    background: #b74e91;
+    height: 100%;
+    width: 100vw;
+    color: #fff;
+    padding: 5em 2em;
+  }
+  .pink-cards__heading h2 {
+    font-size: 1.75em;
+    color: #fff;
+    margin-bottom: 0.8em;
+  }
+  .pink-cards__heading p {
+    font-size: 17px;
+    line-height: 1.5;
+    opacity: 0.5;
+    margin-bottom: 2em;
+  }
+  .pink-cards__cards {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 270px);
+    border-right: 1px solid rgba(255, 255, 255, 0.08);
+    border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
+    width: 1fr;
+  }
+  .pink-cards__card {
+    display: grid;
+    grid-template-columns: 1fr;
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    border-left: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 40px;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin: 0 10px;
+    width: 300px;
+  }
+  .pink-cards__card .card-icon {
+    height: 43px;
+    width: 43px;
+    margin: 0 auto;
+    opacity: 1;
+  }
+  .pink-cards__card .card-content {
+    display: flex;
+    flex-direction: column;
+    padding-top: 18px;
+  }
+  .pink-cards__card .card-content h3 {
+    font-size: 1.3em;
+    padding-bottom: 20px;
+  }
+  .pink-cards__card .card-content p {
+    font-size: 17px;
+    line-height: 1.5;
+    opacity: 0.5;
+  }
+  .pink-cards__actionBtn {
+    border: solid 1px rgba(255, 255, 255, 0.15);
+    border-radius: 3em;
+    font-size: 0.7em;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    width: 300px;
+    background: transparent;
+    outline: none;
+    padding: 2em 2em;
+    transition: background 0.2s ease, border-bottom-color 0.2s ease;
+    margin-top: 3em;
+  }
+  .pink-cards__actionBtn:hover {
+    background: rgba(255, 255, 255, 0.15);
+  }
+  .pink-cards__actionBtn a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+.contact {
+  background: #5e42a6;
+  height: 100%;
+  width: 100vw;
+  color: #fff;
+  padding: 5em 4em;
+}
+.contact__heading h2 {
+  font-size: 1.75em;
+  color: #fff;
+  margin-bottom: 0.8em;
+}
+.contact__heading p {
+  font-size: 17px;
+  line-height: 1.5;
+  opacity: 0.5;
+  margin-bottom: 2em;
+}
+
 h1 {
   font-size: 4rem;
 }
@@ -477,7 +575,7 @@ h3 {
   .landing-full .right-side {
     display: flex;
     flex-direction: column;
-    justify-content: start;
+    justify-content: flex-start;
     margin-left: 0em;
   }
 }

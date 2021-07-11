@@ -1,0 +1,18 @@
+.contact {
+  background: #5e42a6;
+  height: 100%;
+  width: 100vw;
+  color: #fff;
+  padding: 5em 4em;
+}
+.contact__heading h2 {
+  font-size: 1.75em;
+  color: #fff;
+  margin-bottom: 0.8em;
+}
+.contact__heading p {
+  font-size: 17px;
+  line-height: 1.5;
+  opacity: 0.5;
+  margin-bottom: 2em;
+}
