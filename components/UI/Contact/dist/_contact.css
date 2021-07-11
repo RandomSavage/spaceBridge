@@ -96,6 +96,10 @@
   text-decoration: none;
   border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
 }
+.contact__split .split-right .contact-info .li-header a:hover {
+  color: #fff;
+  border-bottom: dotted 1px white;
+}
 .contact__split .split-right .contact-info .li-header .icons {
   display: flex;
   flex-direction: row;
@@ -239,6 +243,10 @@
     color: rgba(255, 255, 255, 0.3);
     text-decoration: none;
     border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+  }
+  .contact__split .split-right .contact-info .li-header a:hover {
+    color: #fff;
+    border-bottom: dotted 1px white;
   }
   .contact__split .split-right .contact-info .li-header .icons {
     display: flex;

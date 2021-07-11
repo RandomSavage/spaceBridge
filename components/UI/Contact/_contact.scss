@@ -97,6 +97,10 @@
               color: rgba(255,255,255,.3);
               text-decoration: none;
               border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+              &:hover{
+                color: #fff;
+                border-bottom: dotted 1px rgba(255, 255, 255, 1);
+                }
             }
             .icons{
               display: flex;
@@ -251,6 +255,10 @@
                 color: rgba(255,255,255,.3);
                 text-decoration: none;
                 border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+                &:hover{
+                  color: #fff;
+                  border-bottom: dotted 1px rgba(255, 255, 255, 1);
+                  }
               }
               .icons{
                 display: flex;
