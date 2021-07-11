@@ -9,7 +9,7 @@ const Contact = () => {
         <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris,<br />eu ultricies erat malesuada quis. Aliquam dapibus.</p>
       </div>
       <div className="contact__split">
-        <section>
+        <section className="split-left">
         <form action="#" method="post">
         <div className="fields">
           <div className="field-half">
@@ -21,38 +21,37 @@ const Contact = () => {
             <input type="text" name="email" id="email" />
           </div>
           <div className="field-half">
-            <label>Email</label>
-            <textarea name="message" id="message" rows="5"></textarea>
+            <label>Message</label>
+            <textarea name="message" id="message" rows="10"></textarea>
           </div>
         </div>
         <button className="contact__actionBtn">
-          <a href="/" >Learn More</a>
+          <a href="/" >Send Message</a>
         </button>
       </form>
         </section>
-        <section>
-          <ul className="contact__contact-info">
-            <li>
+        <section className="split-right">
+          <ul className="contact-info">
+            <li className="li-header">
               <h3>Address</h3>
-              <span>
-                "12345 SomeWhere Road #654"
-                <br />
-                "NashVille, Tn 00000-000"
-                <br />
-                "USA"
-              </span>
+              <ul>
+                <li>12345 SomeWhere Road</li>
+                <li>#654</li>
+                <li>Nashville, TN 00000-0000</li>
+                <li>USA</li>
+              </ul>
             </li>
-            <li>
+            <li className="li-header">
               <h3>Email</h3>
               <a href="#">AlphaPrime@universe.io</a>
             </li>
-            <li>
+            <li className="li-header">
               <h3>Phone</h3>
               <span>
                 (000) 000-0000
               </span>
             </li>
-            <li>
+            <li className="li-header">
               <h3>Social</h3>
               <ul className="icons">
                 <li>
