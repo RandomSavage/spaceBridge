@@ -1,3 +1,4 @@
+import { FaJediOrder, FaUsb, FaXbox, FaHamsa, FaPooStorm } from "react-icons/fa";
 
 
 
@@ -55,19 +56,19 @@ const Contact = () => {
               <h3>Social</h3>
               <ul className="icons">
                 <li>
-                  <a href="#">twitter</a>
+                  <a href="#"><FaJediOrder className="fa-icons" /></a>
                 </li>
                 <li>
-                  <a href="#">facebook</a>
+                  <a href="#"><FaUsb className="fa-icons" /></a>
                 </li>
                 <li>
-                  <a href="#">github</a>
+                  <a href="#"><FaXbox className="fa-icons" /></a>
                 </li>
                 <li>
-                  <a href="#">pinterest</a>
+                  <a href="#"><FaHamsa className="fa-icons" /></a>
                 </li>
                 <li>
-                  <a href="#">linkedin</a>
+                  <a href="#"><FaPooStorm className="fa-icons" /></a>
                 </li>
               </ul>
             </li>

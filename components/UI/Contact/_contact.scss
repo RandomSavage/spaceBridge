@@ -23,7 +23,7 @@
     flex-wrap: wrap;
     .split-left{
       width: calc(67% - 19.5em);
-      border-right: 1px solid rgba(255,255,255,.4);
+      border-right: 1px solid rgba(255,255,255,.3);
       padding: .8em 2em 0em 0em;
       form{
         .fields{
@@ -46,8 +46,8 @@
               font-size: 1em;
               padding: .8em;
               outline: none;
-              color: rgba(255,255,255,.4);
-              border: 1px solid rgba(255,255,255,.4);
+              color: rgba(255,255,255,.3);
+              border: 1px solid rgba(255,255,255,.3);
               border-radius: 5px;
             }
             textarea{
@@ -56,8 +56,8 @@
               font-size: 1.1em;
               padding: .8em;
               outline: none;
-              color: rgba(255,255,255,.4);
-              border: 1px solid rgba(255,255,255,.4);
+              color: rgba(255,255,255,.3);
+              border: 1px solid rgba(255,255,255,.3);
               border-radius: 5px;
             }
           }
@@ -79,7 +79,7 @@
         }
           .li-header{
             width: 200px;
-            color: rgba(255,255,255,.4);
+            color: rgba(255,255,255,.3);
             margin-bottom: 2.4em;
             h3{
               font-size: 1.2em;
@@ -88,18 +88,34 @@
               color: #fff;
             }
             span{
-              color: rgba(255,255,255,.4);
+              color: rgba(255,255,255,.3);
             }
             br{
               height: .5em;
             }
             a{
-              color: rgba(255,255,255,.4);
+              color: rgba(255,255,255,.3);
               text-decoration: none;
+              border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
             }
             .icons{
               display: flex;
               flex-direction: row;
+              justify-content: space-between;
+              a{
+              border-bottom: transparent;
+              &:hover{
+                color: #fff;
+                border-bottom: dotted 1px rgba(255, 255, 255, 0.35);
+                }
+              }
+              .fa-icons{
+              color: rgba(255,255,255,.3);
+              font-size: 1.5em;
+              &:hover{
+                color: #fff;
+                }
+              }
             }
           }
       }
