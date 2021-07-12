@@ -11,6 +11,13 @@
   top: 0;
   width: 19.5em;
   z-index: 10000;
+  overflow-y: hidden;
+}
+.side-nav__closeBtn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 2.1em;
 }
 .side-nav__inside {
   transition: opacity 1s ease;
@@ -18,7 +25,6 @@
   opacity: 1;
   width: 100%;
   justify-content: center;
-  padding-top: 150px;
 }
 .side-nav__linkContainer li a {
   font-size: 0.6em;
@@ -49,14 +55,18 @@
     background: #312450;
     cursor: default;
     height: 100vh;
-    left: -312px;
     overflow-x: hidden;
     overflow-y: auto;
     position: fixed;
     text-align: right;
     top: 0;
-    width: 19.5em;
+    width: 100%;
     z-index: 10000;
+    transform: translate3d(-100%, 0, 0);
+    transition: transform 0.4s ease-in-out;
+  }
+  .side-nav--active {
+    transform: translate3d(0, 0, 0);
   }
   .side-nav__inside {
     transition: opacity 1s ease;
@@ -64,7 +74,6 @@
     opacity: 1;
     width: 100%;
     justify-content: center;
-    padding-top: 150px;
   }
   .side-nav__linkContainer li a {
     font-size: 0.6em;

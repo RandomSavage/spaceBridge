@@ -10,6 +10,8 @@ export function useStateContext() {
 export function Jarvis({children}) {
 const [user, setUser] = useState('')
 
+const [sideNavOpen, setSideNavOpenAction] = useState(false)
+
 const[myContent, setMyContent] = useState(
   [
     {
@@ -53,7 +55,9 @@ const alterBg = (choice) => {
     value={{
       alterBg,
       myContent,
-      setMyContent
+      setMyContent,
+      sideNavOpen,
+      setSideNavOpenAction
     }}
     >
       {children}
