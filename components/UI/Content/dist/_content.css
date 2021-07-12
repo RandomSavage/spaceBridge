@@ -1,3 +1,6 @@
+.content-container {
+  z-index: 1000;
+}
 .content-container .content-area {
   display: grid;
   grid-template-columns: 1fr 80%;

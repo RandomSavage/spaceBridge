@@ -5,8 +5,8 @@ const Landing = () => {
   const globalState = useStateContext()
   return (
     <div className="landing">
-      <FaTimes className="side-nav__closeBtn" onClick={() => globalState.setSideNavOpenAction(true)} />
-      <FaSun className="side-nav__closeBtn" onClick={() => globalState.setSideNavOpenAction(true)} />
+      <FaTimes className="landing__closeBtn" onClick={() => globalState.setSideNavOpenAction(true)} />
+      <FaSun className="landing__closeBtn" onClick={() => globalState.setSideNavOpenAction(true)} />
       <h1>spaceBridge</h1>
       <p>
         Just another RandomSavage Clone produced under the influence of <a  href="https://www.youtube.com/watch?v=InGPB36CFCI" className="landing__links" target="_blank">Techno Music</a>

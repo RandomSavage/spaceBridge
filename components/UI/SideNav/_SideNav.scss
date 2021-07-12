@@ -18,6 +18,7 @@
     top: 10px;
     right: 10px;
     font-size: 2.1em;
+    visibility: hidden;
   }
   &__inside{
     transition: opacity 1s ease;
@@ -77,6 +78,13 @@
     transition: transform .4s ease-in-out;
     &--active{
       transform: translate3d(0, 0, 0);
+    }
+    &__closeBtn{
+      visibility: visible;
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      font-size: 2.1em;
     }
     &__inside{
       transition: opacity 1s ease;

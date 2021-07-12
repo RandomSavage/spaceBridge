@@ -18,6 +18,7 @@
   top: 10px;
   right: 10px;
   font-size: 2.1em;
+  visibility: hidden;
 }
 .side-nav__inside {
   transition: opacity 1s ease;
@@ -67,6 +68,13 @@
   }
   .side-nav--active {
     transform: translate3d(0, 0, 0);
+  }
+  .side-nav__closeBtn {
+    visibility: visible;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2.1em;
   }
   .side-nav__inside {
     transition: opacity 1s ease;
