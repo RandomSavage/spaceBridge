@@ -1,32 +1,31 @@
-.content-area {
+.content-container .content-area {
   display: grid;
   grid-template-columns: 1fr 80%;
-  min-height: 22.5em;
   height: calc(100vh * .6);
   width: 100vw;
 }
-.content-area img {
+.content-container .content-area img {
   height: 100%;
   width: 100%;
   object-fit: cover;
   object-position: center;
 }
-.content-area__inner {
+.content-container .content-area__inner {
   background: #5052b5;
   color: #ffffff8c;
   padding: 5em 4em;
 }
-.content-area__inner h2 {
+.content-container .content-area__inner h2 {
   font-size: 1.75em;
   color: #fff;
   margin-bottom: 1em;
 }
-.content-area__inner p {
+.content-container .content-area__inner p {
   font-size: 1em;
   line-height: 1.25;
   margin-bottom: 2em;
 }
-.content-area__actionBtn {
+.content-container .content-area__actionBtn {
   border: solid 1px rgba(255, 255, 255, 0.15);
   border-radius: 3em;
   font-size: 0.7em;
@@ -39,10 +38,10 @@
   padding: 2em 2em;
   transition: background 0.2s ease, border-bottom-color 0.2s ease;
 }
-.content-area__actionBtn:hover {
+.content-container .content-area__actionBtn:hover {
   background: rgba(255, 255, 255, 0.15);
 }
-.content-area__actionBtn a {
+.content-container .content-area__actionBtn a {
   color: #fff;
   text-decoration: none;
 }
@@ -50,32 +49,36 @@
 /*tablets*/
 /*phones*/
 @media only screen and (max-width: 767px) {
-  .content-area {
-    display: block;
-    height: 2175px;
+  .content-container {
+    height: 1890px;
+  }
+  .content-container .content-area {
+    grid-template-columns: 1fr;
+    height: 630px;
     width: 100%;
   }
-  .content-area img {
-    height: 50%;
+  .content-container .content-area img {
+    height: 300px;
     width: 100%;
     object-fit: cover;
     object-position: center;
   }
-  .content-area__inner {
+  .content-container .content-area__inner {
     background: #5052b5;
     color: #ffffff8c;
+    height: 330px;
   }
-  .content-area__inner h2 {
+  .content-container .content-area__inner h2 {
     font-size: 1.75em;
     color: #fff;
     margin-bottom: 1em;
   }
-  .content-area__inner p {
+  .content-container .content-area__inner p {
     font-size: 1em;
     line-height: 1.25;
     margin-bottom: 2em;
   }
-  .content-area__actionBtn {
+  .content-container .content-area__actionBtn {
     border: solid 1px rgba(255, 255, 255, 0.15);
     border-radius: 3em;
     font-size: 0.7em;
@@ -88,10 +91,10 @@
     padding: 2em 2em;
     transition: background 0.2s ease, border-bottom-color 0.2s ease;
   }
-  .content-area__actionBtn:hover {
+  .content-container .content-area__actionBtn:hover {
     background: rgba(255, 255, 255, 0.15);
   }
-  .content-area__actionBtn a {
+  .content-container .content-area__actionBtn a {
     color: #fff;
     text-decoration: none;
   }

@@ -5,7 +5,6 @@
   color: #fff;
   padding: 5em 4em;
   &__heading{
-    // padding: 5em 4em;
     h2{
       font-size: 1.75em;
       color: #fff;
@@ -23,15 +22,11 @@
     display: grid;
     grid-template-columns: repeat(2, 450px);
     grid-template-rows: repeat(3, 270px);
-    // margin: 0 auto;
     border-right: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: .5px solid rgba(255, 255, 255, 0.08);
     width: 900px;
   }
   &__card{
-    // display: flex;
-    // flex-direction: row;
-    // justify-content: space-around;
     display: grid;
     grid-template-columns: 1fr 80%;
     border-top: 1px solid rgba(255, 255, 255, 0.08);
@@ -93,10 +88,11 @@
 @media only screen and (max-width: 767px){
   .pink-cards{
     background: #b74e91;
-    height: 100%;
+    height: calc(100% - 1705px);
     width: 100vw;
     color: #fff;
     padding: 5em 2em;
+    margin: 0 auto;
     &__heading{
       // padding: 5em 4em;
       h2{
@@ -116,21 +112,16 @@
       display: grid;
       grid-template-columns: 1fr;
       grid-template-rows: repeat(6, 270px);
-      // margin: 0 auto;
       border-right: 1px solid rgba(255, 255, 255, 0.08);
       border-bottom: .5px solid rgba(255, 255, 255, 0.08);
       width: 1fr;
-      height: 100%;
     }
     &__card{
-      // display: flex;
-      // flex-direction: row;
-      // justify-content: space-around;
       display: grid;
       grid-template-columns: 1fr;
       border-top: 1px solid rgba(255, 255, 255, 0.08);
       border-left: 1px solid rgba(255, 255, 255, 0.08);
-      padding: 40px 0 50px;
+      padding: 40px 10px 50px;
       background-color: rgba(255, 255, 255, 0.08);
       margin: 0 10px;
       width: 300px;
@@ -143,12 +134,11 @@
       .card-content{
         display: flex;
         flex-direction: column;
-        // justify-content: center;
         padding-top: 18px;
         h3{
           font-size: 1.3em;
           padding-bottom: 20px;
-  
+          text-align: center;
         }
         p{
           font-size: 17px;
@@ -169,7 +159,8 @@
       outline: none;
       padding: 2em 2em;
       transition: background 0.2s ease, border-bottom-color 0.2s ease;
-      margin-top: 3em;
+      margin-top: 2.4em;
+      margin-bottom: 2.4em;
       &:hover{
       background: rgba(255, 255, 255, 0.15);
       }
