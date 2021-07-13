@@ -59,7 +59,8 @@
 /*phones*/
 @media only screen and (max-width: 767px){
   .content-container{
-    height: 1890px;
+    // height: 1890px;
+    height: 100%;
     .content-area{
 
       grid-template-columns: 1fr;
@@ -68,7 +69,7 @@
       width: 100%;
       img{
         height: 300px;
-        width: 100%;
+        width: 100vw;
         object-fit: cover;
         object-position: center;
       }

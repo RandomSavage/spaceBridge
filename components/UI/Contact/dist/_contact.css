@@ -149,7 +149,7 @@
     height: 100%;
     width: 100vw;
     color: #fff;
-    padding: 5em 4em;
+    padding: 5em 2em;
   }
   .contact__heading h2 {
     font-size: 1.75em;
@@ -209,7 +209,7 @@
   }
   .contact__split .split-right {
     width: 100%;
-    padding: 2.4em 0em 0em 2.4em;
+    padding: 2.4em 0em 0em 0em;
     border-top: dotted 1px rgba(255, 255, 255, 0.3);
   }
   .contact__split .split-right .contact-info {

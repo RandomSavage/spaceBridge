@@ -1,6 +1,6 @@
 .footer {
   background: #493382;
-  position: relative;
+  height: 100%;
 }
 .footer__inner {
   padding: 4em 4em 4em 4em;
@@ -33,4 +33,44 @@
   line-height: 1;
   padding: 0em 0em 0em 1.5em;
   margin-left: 1.5em;
+}
+
+/*tablets*/
+/*phones*/
+@media only screen and (max-width: 767px) {
+  .footer {
+    background: #493382;
+    width: 100%;
+  }
+  .footer__inner {
+    padding: 4em 0em 4em 0em;
+    max-width: 100%;
+    width: 75em;
+  }
+  .footer__inner ul {
+    list-style: none;
+    padding: 0;
+  }
+  .footer__inner ul li {
+    display: block;
+    line-height: 1;
+    padding: 0em 0em 1.5em 1.5em;
+    color: rgba(255, 255, 255, 0.15);
+  }
+  .footer__inner ul li a {
+    border-bottom: 1px dotted rgba(255, 255, 255, 0.35);
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.15);
+    margin-left: 0.3em;
+  }
+  .footer__inner ul li a:hover {
+    color: #fff;
+    border-bottom: transparent;
+  }
+  .footer__inner ul .inner-li {
+    display: block;
+    line-height: 1;
+    padding: 0em 0em 1.5em 1.5em;
+    margin-left: 0em;
+  }
 }

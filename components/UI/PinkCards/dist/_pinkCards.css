@@ -80,10 +80,10 @@
   .pink-cards {
     background: #b74e91;
     height: calc(100% - 1705px);
+    height: 100%;
     width: 100vw;
     color: #fff;
-    padding: 5em 2em;
-    margin: 0 auto;
+    padding: 5em 3em;
   }
   .pink-cards__heading h2 {
     font-size: 1.75em;
