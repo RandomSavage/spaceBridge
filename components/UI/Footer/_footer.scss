@@ -1,0 +1,36 @@
+.footer{
+  background: #493382;
+  position: relative;
+  &__inner{
+    padding: 4em 4em 4em 4em;
+    max-width: 100%;
+    width: 75em;
+    ul{
+      list-style: none;
+      padding: 0;
+      li{
+        display: inline-block;
+        line-height: 1;
+        padding: 0em 0em 0em 1.5em;
+        color: rgba(255,255,255,.15);
+        a{
+          border-bottom: 1px dotted rgba(255,255,255,.35);
+          text-decoration: none;
+          color: rgba(255,255,255,.15);
+          margin-left: .3em;
+          &:hover{
+            color: #fff;
+            border-bottom: transparent;
+          }
+        }
+      }
+      .inner-li{
+        border-left: solid 1px rgba(255,255,255,.15);
+        display: inline-block;
+        line-height: 1;
+        padding: 0em 0em 0em 1.5em;
+        margin-left: 1.5em;
+      }
+    }
+  }
+}
