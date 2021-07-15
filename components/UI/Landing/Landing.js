@@ -33,6 +33,22 @@ const Landing = () => {
         duration: 8
       },
     )
+    let mySelectors = [".landing h1", ".landing p", ".landing button" ]
+    mySelectors.map((selector) => {
+      return     gsap.fromTo(
+        document.querySelector(selector),
+        {
+          opacity: 0,
+          y: 20,
+        },
+        {
+          opacity: 1,
+          y: 0,
+          duration: 2
+        },
+      )
+    })
+
   }, [])
 
   return (
