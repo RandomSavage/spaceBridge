@@ -70,6 +70,8 @@
     background: #5052b5;
     color: #ffffff8c;
     height: 330px;
+    width: 100vw;
+    padding: 3em 2em;
   }
   .content-container .content-area__inner h2 {
     font-size: 1.75em;

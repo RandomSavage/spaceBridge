@@ -1,4 +1,4 @@
-import { FaPiedPiperHat, FaCat, FaBong, FaCannabis, FaBookMedical, FaBookDead } from "react-icons/fa";
+import { FaTty, FaCat, FaLaptopCode, FaGamepad, FaBook, FaTractor } from "react-icons/fa";
 
 const PinkCards = () => {
   return (
@@ -9,25 +9,34 @@ const PinkCards = () => {
       </div>
       <div className="pink-cards__cards">
       <div className="pink-cards__card">
-          <FaPiedPiperHat className="card-icon"/>
+          <FaTty className="card-icon"/>
           <div className="card-content">
-            <h3>Sed erat ullam corper</h3>
+            <h3>Solo qui-gonn boba windu</h3>
             <p>
-              Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
+            Organa ben tusken raider dagobah palpatine hutt tusken raider mace qui-gonn. Moff gwurran drall t88 annoo dengar c-3po.
             </p>
           </div>
         </div>
         <div className="pink-cards__card">
           <FaCat className="card-icon"/>
           <div className="card-content">
-            <h3>Sed erat ullam corper</h3>
+            <h3>Calamari skywalker mace</h3>
+            <p>
+            Emtrey ebe zabrak gerb yoda yarael. Solo antilles darth darth darth, Hoth jango lando dooku yavin.
+            </p>
+          </div>
+        </div>
+        <div className="pink-cards__card">
+          <FaLaptopCode className="card-icon"/>
+          <div className="card-content">
+            <h3>Lars darth calamari</h3>
             <p>
               Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
             </p>
           </div>
         </div>
         <div className="pink-cards__card">
-          <FaBong className="card-icon"/>
+          <FaGamepad className="card-icon"/>
           <div className="card-content">
             <h3>Sed erat ullam corper</h3>
             <p>
@@ -36,27 +45,18 @@ const PinkCards = () => {
           </div>
         </div>
         <div className="pink-cards__card">
-          <FaCannabis className="card-icon"/>
+          <FaBook className="card-icon"/>
           <div className="card-content">
-            <h3>Sed erat ullam corper</h3>
+            <h3>Amidala mandalorians moff</h3>
             <p>
               Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
             </p>
           </div>
         </div>
         <div className="pink-cards__card">
-          <FaBookMedical className="card-icon"/>
+          <FaTractor className="card-icon"/>
           <div className="card-content">
-            <h3>Sed erat ullam corper</h3>
-            <p>
-              Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
-            </p>
-          </div>
-        </div>
-        <div className="pink-cards__card">
-          <FaBookDead className="card-icon"/>
-          <div className="card-content">
-            <h3>Sed erat ullam corper</h3>
+            <h3>Fett solo lobot hutt</h3>
             <p>
               Phasellus convallis elit id ullam corper amet et pulvinar. Duis aliquam turpis mauris, sed ultricies erat dapibus.
             </p>

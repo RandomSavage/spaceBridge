@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <div className='contact'>
       <div className="contact__heading">
-        <h2>What we Do</h2>
+        <h2>Get in touch</h2>
         <p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris,<br />eu ultricies erat malesuada quis. Aliquam dapibus.</p>
       </div>
       <div className="contact__split">

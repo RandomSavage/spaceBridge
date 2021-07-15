@@ -83,7 +83,7 @@
     height: 100%;
     width: 100vw;
     color: #fff;
-    padding: 5em 3em;
+    padding: 5em 2.5em;
   }
   .pink-cards__heading h2 {
     font-size: 1.75em;
@@ -102,7 +102,8 @@
     grid-template-rows: repeat(6, 270px);
     border-right: 1px solid rgba(255, 255, 255, 0.08);
     border-bottom: 0.5px solid rgba(255, 255, 255, 0.08);
-    width: 1fr;
+    width: 100vw;
+    margin: 0 auto;
   }
   .pink-cards__card {
     display: grid;
@@ -112,7 +113,7 @@
     padding: 40px 10px 50px;
     background-color: rgba(255, 255, 255, 0.08);
     margin: 0 0px;
-    width: 300px;
+    width: 80%;
   }
   .pink-cards__card .card-icon {
     height: 43px;
