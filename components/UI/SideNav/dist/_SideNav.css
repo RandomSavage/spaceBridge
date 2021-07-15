@@ -27,6 +27,9 @@
   width: 100%;
   justify-content: center;
 }
+.side-nav__inside-container1 {
+  margin-bottom: 10px;
+}
 .side-nav__linkContainer li a {
   font-size: 0.6em;
   font-weight: bold;

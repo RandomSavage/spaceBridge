@@ -1,6 +1,6 @@
 import { FaTimes, FaSun} from "react-icons/fa"
 import React, { useEffect, useRef } from 'react'
-import { gsap, Power3} from 'gsap'
+import { gsap } from 'gsap'
 // import { CSSPlugin } from 'gsap/CSSPlugin'
 import { useStateContext } from '../../Jarvis'
 
@@ -39,12 +39,13 @@ const Landing = () => {
         document.querySelector(selector),
         {
           opacity: 0,
-          y: 20,
+          y: 20
         },
         {
           opacity: 1,
           y: 0,
-          duration: 2
+          duration: 1,
+          delay: 1
         },
       )
     })
